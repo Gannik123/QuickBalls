@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Гра: Злови кульку Етап 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <!-- Part 2 -->
+  <div class="difficulty-box">
+    <h2>Оберіть рівень складності:</h2>
+    <div id="difficulty-buttons">
+      <button value="easy" class="difficulty-btn easy">Легкий</button>
+      <button value="medium" class="difficulty-btn medium">Середній</button>
+      <button value="hard" class="difficulty-btn hard">Складний</button>
+      <button id="startBtn">Старт</button>
+    </div>
+   </div>
+  <!-- Part 1 -->
+  <div class="row">
+    <div id="totalScore">Всього набрано: 0</div>
+    <button id="shopBtn">🛒</button>
+  </div>
+
+  <div id="gameField">
+    <div id="score">Очки: 0</div>
+    <div id="timer">Час: 20</div>
+  </div>
+
+  <!-- Part 3 Магазин -->
+  <div id="shopArea">
+    <button id="closeShop">❌</button>
+    <h2>Магазин скінів</h2>
+    <div id="skinList"></div>
+  </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
