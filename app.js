@@ -90,6 +90,8 @@ if (skin && skin.img) { // якщо skin існує та в ньому є кар
       navigator.vibrate(100);// викликаємо вібрацію, якщо підтримується
       console.log("Вібрація!");
     }
+    ball.classList.add('shake');
+setTimeout(() => ball.classList.remove('shake'), 300);
     if (type === 'blue') {
       if (selectedDifficulty === "hard") {
         score += 2
