@@ -246,6 +246,18 @@ button {
 .skin-item button:hover{
   transform: scale(1.1);
 }
+
+@keyframes shake {
+  0% { transform: translateX(0px); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0px); }
+}
+
+.shake {
+  animation: shake 0.3s;
+}
 @media(max-width:800px){
 
   #gameField{
