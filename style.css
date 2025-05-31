@@ -195,7 +195,7 @@ button {
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-    max-height: 100vh;
+    max-height: 100dvh;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
