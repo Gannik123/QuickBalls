@@ -210,8 +210,8 @@ button {
     transition: .5s;
     
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 2%;
+    right: 2%;
   }
   #closeShop:hover{
     transform: rotate(180deg);
