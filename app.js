@@ -86,7 +86,7 @@ if (skin && skin.img) { // якщо skin існує та в ньому є кар
 
 
   ball.addEventListener('click', () => {
-    navigator.vibrate([100, 50, 100]); // вібрація-пауза-вібрація
+    navigator.vibrate?.(100); // викликаємо вібрацію, якщо підтримується
     if (type === 'blue') {
       if (selectedDifficulty === "hard") {
         score += 2
