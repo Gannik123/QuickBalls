@@ -85,7 +85,7 @@ if (skin && skin.img) { // якщо skin існує та в ньому є кар
   ball.style.height = `${size}px`;
 
 
-  ball.addEventListener('click', () => {
+  ball.addEventListener('touchstart', () => {
        if (navigator.vibrate) {
       navigator.vibrate(100);// викликаємо вібрацію, якщо підтримується
       console.log("Вібрація!");
